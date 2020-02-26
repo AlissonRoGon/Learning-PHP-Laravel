@@ -2,7 +2,9 @@
 <p>Ementa: {{$disciplina->ementa}}</p>
 <p>Data de criação: {{$disciplina->created_at}}</p>
 <p>Data de atualização: {{$disciplina->updated_at}}</p>
-
+<br>
+<a href="/disciplinas/{{ $disciplina->id }}/turmas/create">Inserir Turma</a>
+<br>
 <a href="/disciplinas/{{$disciplina->id}}/edit">Editar</a>
 <br>
 <br>
