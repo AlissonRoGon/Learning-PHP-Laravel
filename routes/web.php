@@ -12,6 +12,6 @@
 */
 
 Route::get('/', 'DisciplinaController@index');
-Route::resource('disciplinas', 'DisciplinasController');
+Route::resource('disciplinas', 'DisciplinaController');
 
 
