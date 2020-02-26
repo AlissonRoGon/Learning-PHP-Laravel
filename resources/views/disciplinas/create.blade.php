@@ -3,4 +3,7 @@
     Nome: <input name="titulo" placeholder="Insira o titulo da disciplina...">
     Ementa: <textarea name="ementa" placeholder="Descreva a ementa da dsiciplina..."></textarea>
     <button type="submit"> Salvar </button>
+    <br>
+    <br>
+    <a href="/">Voltar</a>
 </form>
