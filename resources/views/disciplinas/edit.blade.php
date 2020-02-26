@@ -4,4 +4,7 @@
     Nome: <input name="titulo" value="{{$disciplina->titulo}}">
     Ementa: <textarea name="ementa">{{$disciplina->ementa}}</textarea>
     <button type="submit"> Salvar </button>
+    <br>
+    <br>
+    <a href="/">Voltar</a>
 </form>
