@@ -10,6 +10,13 @@
             </a>
             <br>
             <a href="/disciplinas/{{$disciplina->id}}/edit">Editar</a>
+            <br>
+            <form method="POST" action="/disciplinas/{{$disciplina->id}}">
+                {{csrf_field()}}
+                {{method_field('delete')}}
+                <button type="submit">Apagar</button>
+            </form>
+            <br>
         </li>
     @endforeach
 </ul>
