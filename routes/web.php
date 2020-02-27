@@ -17,3 +17,7 @@ Route::get('/disciplinas/{disciplina_id}/turmas/create','DisciplinaController@cr
 Route::post('/disciplinas/{disciplina_id}/turmas','DisciplinaController@storeTurma');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

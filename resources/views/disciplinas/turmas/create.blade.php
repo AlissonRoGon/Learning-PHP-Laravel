@@ -1,3 +1,5 @@
+@extends('layouts.master')
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
